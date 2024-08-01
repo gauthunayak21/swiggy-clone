@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.res-card { 
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.res-card > img {
+    width: 200px;
+}
